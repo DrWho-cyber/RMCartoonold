@@ -1,0 +1,12 @@
+  
+<h3>PAGE: {{number - 2}}</h3>
+<div class="btnNext">
+    <button *ngIf="showbtn" class="btn btn-success btn-prev" (click)="getAllRMPrev()">Previous</button>
+    <button class="btn btn-success" (click)="getAllRMNext(number)">Next</button>
+</div>
+<div class="cards">
+    <app-cards *ngFor="let card of cards" [card]="card" [ngClass]="card.name == 'Crossy' || card.name == 'Jesus Christ'? 'dontShow' : ''"></app-cards>
+</div>
+
+
+<app-carousel></app-carousel>

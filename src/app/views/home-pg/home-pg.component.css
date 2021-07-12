@@ -1,0 +1,29 @@
+.cards {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    
+    .btnNext {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px auto;
+    }
+    
+    h3 {
+        text-align: center;
+    }
+    
+    .btn:focus {
+        
+        box-shadow: none;
+    }
+
+    .dontShow {
+        display: none;
+    }
