@@ -26,7 +26,7 @@ clearCards(){
       this.cards = response.results;
     console.log(this.cards)
     });
-    console.log(this.name)
+    this.name= "";
 }
 
 }
