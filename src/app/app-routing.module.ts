@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutPgComponent } from './views/about-pg/about-pg.component';
 import { RubenGalavizComponent } from './views/about-pg/ruben-galaviz/ruben-galaviz.component';
 import { HomePgComponent } from './views/home-pg/home-pg.component';
+import { SearchResultsComponent } from './views/nav-bar/search-results/search-results.component';
 
 const routes: Routes = [
   {path:'', 
@@ -14,6 +15,7 @@ const routes: Routes = [
     component: RubenGalavizComponent}
   ]
 },
+ {path:'search-results', component:SearchResultsComponent}
 ];
 
 @NgModule({

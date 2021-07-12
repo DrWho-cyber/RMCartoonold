@@ -11,6 +11,8 @@ import { CarouselComponent } from './sharedComps/carousel/carousel.component';
 import { HomePgComponent } from './views/home-pg/home-pg.component';
 import { AboutPgComponent } from './views/about-pg/about-pg.component';
 import { RubenGalavizComponent } from './views/about-pg/ruben-galaviz/ruben-galaviz.component';
+import { SearchResultsComponent } from './views/nav-bar/search-results/search-results.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,12 +22,15 @@ import { RubenGalavizComponent } from './views/about-pg/ruben-galaviz/ruben-gala
     CarouselComponent,
     HomePgComponent,
     AboutPgComponent,
-    RubenGalavizComponent
+    RubenGalavizComponent,
+    SearchResultsComponent
+   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule, 
+    FormsModule
   ],
   providers: [ProxyHttpService],
   bootstrap: [AppComponent]
