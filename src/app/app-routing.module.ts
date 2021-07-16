@@ -5,6 +5,7 @@ import { RubenGalavizComponent } from './views/about-pg/ruben-galaviz/ruben-gala
 import { HomePgComponent } from './views/home-pg/home-pg.component';
 import { SearchResultsComponent } from './views/nav-bar/search-results/search-results.component';
 
+
 const routes: Routes = [
   {path:'', 
   component: HomePgComponent},
@@ -15,7 +16,7 @@ const routes: Routes = [
     component: RubenGalavizComponent}
   ]
 },
- {path:'search-results', component:SearchResultsComponent}
+ {path:'search-results', component:SearchResultsComponent},
 ];
 
 @NgModule({

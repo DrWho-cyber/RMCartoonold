@@ -2,10 +2,10 @@
 <div class="card" style="width: 10rem;">
     <img [src]="card.image" class="card-img-top" alt="...">
     <div class="card-body">
-      <h6 class="card-title">{{card.name}}</h6>
-      <p class="card-text">status: {{card.status}}</p>
-      <p class="card-text">species: {{card.species}}</p>
-      <p class="card-text">gender: {{card.gender}}</p>
-      <p class="card-text">location: {{card.location.name}}</p>
+      <h6 class="card-title"><strong>{{card.name}}</strong></h6>
+      <p class="card-text"><strong>status:</strong> {{card.status}}</p>
+      <p class="card-text"><strong>species:</strong> {{card.species}}</p>
+      <p class="card-text"><strong>gender:</strong> {{card.gender}}</p>
+      <p class="card-text"><button (click)="getLocations(card.location.url)" class="btn"><strong>location:</strong> {{card.location.name}}</button></p>
     </div>
   </div>

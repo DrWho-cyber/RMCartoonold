@@ -14,6 +14,8 @@ import { RubenGalavizComponent } from './views/about-pg/ruben-galaviz/ruben-gala
 import { SearchResultsComponent } from './views/nav-bar/search-results/search-results.component';
 import { FormsModule } from '@angular/forms';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +32,8 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule, 
-    FormsModule
+    FormsModule,
+    
   ],
   providers: [ProxyHttpService],
   bootstrap: [AppComponent]

@@ -5,6 +5,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Yomogi', cursive;
     }
     
     
@@ -16,9 +17,15 @@
     }
     
     h3 {
+        margin-top: 20px;
         text-align: center;
+        font-family: 'Rock Salt', cursive;
     }
     
+    .btn {
+        font-family: 'Yomogi', cursive;
+    }
+
     .btn:focus {
         
         box-shadow: none;
